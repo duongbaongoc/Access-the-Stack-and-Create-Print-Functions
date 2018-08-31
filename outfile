@@ -1,0 +1,216 @@
+enter main
+&argc=0xFFD1CA20 argv=0xFFD1CAB4 env=0xFFD1CAC8
+&a=0xFFD1C9D8 &b=0xFFD1C9DC &c=0xFFD1C9E0
+argc=4 
+argv[0 ] = ./a.out
+argv[1 ] = one
+argv[2 ] = two
+argv[3 ] = three
+env[0 ] = CLUTTER_IM_MODULE=xim
+env[1 ] = LS_COLORS=rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.Z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:
+env[2 ] = LESSCLOSE=/usr/bin/lesspipe %s %s
+env[3 ] = XDG_MENU_PREFIX=gnome-
+env[4 ] = LANG=en_CA.UTF-8
+env[5 ] = DISPLAY=:0
+env[6 ] = GNOME_SHELL_SESSION_MODE=ubuntu
+env[7 ] = COLORTERM=truecolor
+env[8 ] = USERNAME=ngoc
+env[9 ] = XDG_VTNR=1
+env[A ] = SSH_AUTH_SOCK=/run/user/1000/keyring/ssh
+env[B ] = XDG_SESSION_ID=1
+env[C ] = USER=ngoc
+env[D ] = DESKTOP_SESSION=ubuntu
+env[E ] = QT4_IM_MODULE=xim
+env[F ] = TEXTDOMAINDIR=/usr/share/locale/
+env[10 ] = GNOME_TERMINAL_SCREEN=/org/gnome/Terminal/screen/f96fa3bf_dff8_438c_a644_78d29a3fcb09
+env[11 ] = PWD=/home/ngoc/Desktop/360-assignment 1
+env[12 ] = HOME=/home/ngoc
+env[13 ] = TEXTDOMAIN=im-config
+env[14 ] = SSH_AGENT_PID=957
+env[15 ] = QT_ACCESSIBILITY=1
+env[16 ] = XDG_SESSION_TYPE=x11
+env[17 ] = XDG_DATA_DIRS=/usr/share/ubuntu:/usr/local/share:/usr/share:/var/lib/snapd/desktop
+env[18 ] = XDG_SESSION_DESKTOP=ubuntu
+env[19 ] = GJS_DEBUG_OUTPUT=stderr
+env[1A ] = GTK_MODULES=gail:atk-bridge
+env[1B ] = WINDOWPATH=1
+env[1C ] = TERM=xterm-256color
+env[1D ] = SHELL=/bin/bash
+env[1E ] = VTE_VERSION=5202
+env[1F ] = QT_IM_MODULE=xim
+env[20 ] = XMODIFIERS=@im=ibus
+env[21 ] = IM_CONFIG_PHASE=2
+env[22 ] = XDG_CURRENT_DESKTOP=ubuntu:GNOME
+env[23 ] = GPG_AGENT_INFO=/run/user/1000/gnupg/S.gpg-agent:0:1
+env[24 ] = GNOME_TERMINAL_SERVICE=:1.60
+env[25 ] = XDG_SEAT=seat0
+env[26 ] = SHLVL=1
+env[27 ] = LANGUAGE=en_CA:en
+env[28 ] = GDMSESSION=ubuntu
+env[29 ] = GNOME_DESKTOP_SESSION_ID=this-is-deprecated
+env[2A ] = LOGNAME=ngoc
+env[2B ] = DBUS_SESSION_BUS_ADDRESS=unix:path=/run/user/1000/bus
+env[2C ] = XDG_RUNTIME_DIR=/run/user/1000
+env[2D ] = XAUTHORITY=/run/user/1000/gdm/Xauthority
+env[2E ] = XDG_CONFIG_DIRS=/etc/xdg/xdg-ubuntu:/etc/xdg
+env[2F ] = PATH=/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin
+env[30 ] = GJS_DEBUG_TOPICS=JS ERROR;JS LOG
+env[31 ] = SESSION_MANAGER=local/ngoc-VirtualBox:@/tmp/.ICE-unix/864,unix/ngoc-VirtualBox:/tmp/.ICE-unix/864
+env[32 ] = LESSOPEN=| /usr/bin/lesspipe %s
+env[33 ] = GTK_IM_MODULE=ibus
+env[34 ] = OLDPWD=/home/ngoc
+env[35 ] = _=./a.out
+enter A
+&d=0xFFD1C990 &e=0xFFD1C994 &f=0xFFD1C998
+enter B
+&g=0xFFD1C960 &h=0xFFD1C964 &i=0xFFD1C968
+enter C
+&u=0xFFD1C914 &v=0xFFD1C918 &w=0xFFD1C91C &i=0xFFD1C920 &p=0xFFD1C924
+
+
+Stack Frame List
+
+Frame Pointer = 0xFFD1C948    Frame of its caller = 0xFFD1C978
+Frame Pointer = 0xFFD1C978    Frame of its caller = 0xFFD1C9A8
+Frame Pointer = 0xFFD1C9A8    Frame of its caller = 0xFFD1CA08
+Frame Pointer = 0xFFD1CA08    Frame of its caller = 0x0
+
+128 entries  of the stack:
+LOW ADDRESS
+0xFFD1C924	0xFFD1C924
+0xFFD1C928	0x1
+0xFFD1C92C	0xFB665A00
+0xFFD1C930	0xFFD1C998
+0xFFD1C934	0x10
+0xFFD1C938	0xFFD1C958
+0xFFD1C93C	0x56573FD0
+0xFFD1C940	0xFFD1CA20
+0xFFD1C944	0x0
+0xFFD1C948	0xFFD1C978
+0xFFD1C94C	0x56571BFC
+0xFFD1C950	0x7
+0xFFD1C954	0x8
+0xFFD1C958	0xFFD1C964
+0xFFD1C95C	0xFFD1C968
+0xFFD1C960	0x7
+0xFFD1C964	0x8
+0xFFD1C968	0x9
+0xFFD1C96C	0xFB665A00
+0xFFD1C970	0xFFD1CA20
+0xFFD1C974	0x56573FD0
+0xFFD1C978	0xFFD1C9A8
+0xFFD1C97C	0x56571B53
+0xFFD1C980	0x4
+0xFFD1C984	0x5
+0xFFD1C988	0xFFD1C994
+0xFFD1C98C	0xFFD1C998
+0xFFD1C990	0x4
+0xFFD1C994	0x5
+0xFFD1C998	0x6
+0xFFD1C99C	0xFB665A00
+0xFFD1C9A0	0x0
+0xFFD1C9A4	0x56573FD0
+0xFFD1C9A8	0xFFD1CA08
+0xFFD1C9AC	0x56571A84
+0xFFD1C9B0	0x1
+0xFFD1C9B4	0x2
+0xFFD1C9B8	0xFFD1DFE6
+0xFFD1C9BC	0xFFD1C9E0
+0xFFD1C9C0	0x9
+0xFFD1C9C4	0xFFD1D3E5
+0xFFD1C9C8	0xFFD1CAC8
+0xFFD1C9CC	0xFFD1CAB4
+0xFFD1C9D0	0xF7F46000
+0xFFD1C9D4	0xF7F46000
+0xFFD1C9D8	0x1
+0xFFD1C9DC	0x2
+0xFFD1C9E0	0x3
+0xFFD1C9E4	0x4
+0xFFD1C9E8	0x36
+0xFFD1C9EC	0xFB665A00
+0xFFD1C9F0	0x4
+0xFFD1C9F4	0xFFD1CAB4
+0xFFD1C9F8	0xFFD1CAC8
+0xFFD1C9FC	0xFFD1CA20
+0xFFD1CA00	0x0
+0xFFD1CA04	0xF7F46000
+0xFFD1CA08	0x0
+0xFFD1CA0C	0xF7D89E81
+0xFFD1CA10	0xF7F46000
+0xFFD1CA14	0xF7F46000
+0xFFD1CA18	0x0
+0xFFD1CA1C	0xF7D89E81
+0xFFD1CA20	0x4
+0xFFD1CA24	0xFFD1CAB4
+0xFFD1CA28	0xFFD1CAC8
+0xFFD1CA2C	0xFFD1CA44
+0xFFD1CA30	0x4
+0xFFD1CA34	0xFFD1CAB4
+0xFFD1CA38	0xF7F46000
+0xFFD1CA3C	0xF7F7575A
+0xFFD1CA40	0xFFD1CAB0
+0xFFD1CA44	0x0
+0xFFD1CA48	0xF7F46000
+0xFFD1CA4C	0x0
+0xFFD1CA50	0x0
+0xFFD1CA54	0x5623F11D
+0xFFD1CA58	0x448B370D
+0xFFD1CA5C	0x0
+0xFFD1CA60	0x0
+0xFFD1CA64	0x0
+0xFFD1CA68	0x40
+0xFFD1CA6C	0xF7F8D024
+0xFFD1CA70	0x0
+0xFFD1CA74	0x0
+0xFFD1CA78	0xF7F75869
+0xFFD1CA7C	0x56573FD0
+0xFFD1CA80	0x4
+0xFFD1CA84	0x56571470
+0xFFD1CA88	0x0
+0xFFD1CA8C	0x565714A1
+0xFFD1CA90	0x56571941
+0xFFD1CA94	0x4
+0xFFD1CA98	0xFFD1CAB4
+0xFFD1CA9C	0x56571DF0
+0xFFD1CAA0	0x56571E50
+0xFFD1CAA4	0xF7F759B0
+0xFFD1CAA8	0xFFD1CAAC
+0xFFD1CAAC	0xF7F8D940
+0xFFD1CAB0	0x4
+0xFFD1CAB4	0xFFD1D3E5
+0xFFD1CAB8	0xFFD1D3ED
+0xFFD1CABC	0xFFD1D3F1
+0xFFD1CAC0	0xFFD1D3F5
+0xFFD1CAC4	0x0
+0xFFD1CAC8	0xFFD1D3FB
+0xFFD1CACC	0xFFD1D411
+0xFFD1CAD0	0xFFD1D9FD
+0xFFD1CAD4	0xFFD1DA1F
+0xFFD1CAD8	0xFFD1DA36
+0xFFD1CADC	0xFFD1DA47
+0xFFD1CAE0	0xFFD1DA52
+0xFFD1CAE4	0xFFD1DA72
+0xFFD1CAE8	0xFFD1DA86
+0xFFD1CAEC	0xFFD1DA94
+0xFFD1CAF0	0xFFD1DA9F
+0xFFD1CAF4	0xFFD1DAC8
+0xFFD1CAF8	0xFFD1DAD9
+0xFFD1CAFC	0xFFD1DAE3
+0xFFD1CB00	0xFFD1DAFA
+0xFFD1CB04	0xFFD1DB0C
+0xFFD1CB08	0xFFD1DB2D
+0xFFD1CB0C	0xFFD1DB83
+0xFFD1CB10	0xFFD1DBAB
+0xFFD1CB14	0xFFD1DBBB
+0xFFD1CB18	0xFFD1DBD0
+0xFFD1CB1C	0xFFD1DBE2
+0xFFD1CB20	0xFFD1DBF5
+HIGH ADDRESS
+
+
+exit C
+exit B
+exit A
+char=A string=this is a test   dec=64  hex=0x64 oct=0144 neg=-144 
+
+exit main

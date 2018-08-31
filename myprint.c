@@ -13,10 +13,6 @@ int help2(u32 x);
 int help1(u32 x, u32 base);
 int printu(u32 x);
 int printd(int x);
-int main()
-{
-  myprintf("...%c...%s...%d...%x...%o...%u...\n", 'A', "my string", 32, 32, 32, 32);
-}
 
 //Ngoc's work: myprintf to print different formats
 int myprintf(char *fmt, ...) {
