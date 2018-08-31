@@ -1,5 +1,4 @@
 #include <stdio.h>
-#include <stdarg.h>
 
 typedef unsigned int u32;
 char *ctable = "0123456789ABCDEF";
@@ -14,43 +13,54 @@ int help2(u32 x);
 int help1(u32 x, u32 base);
 int printu(u32 x);
 int printd(int x);
+int main()
+{
+  myprintf("...%c...%s...%d...%x...%o...%u...\n", 'A', "my string", 32, 32, 32, 32);
+}
 
 //Ngoc's work: myprintf to print different formats
 int myprintf(char *fmt, ...) {
-  va_list vl;
-  va_start(vl, fmt);
-  while (*fmt)
-    {
-      if (*fmt=='%') {
+  int *ip = (int *)(&fmt+1);
+ 
+    while(*fmt !=0)
+      {
+	if(*fmt == '%')
+	  {
+	    fmt++;
+	    switch(*fmt)
+	      {
+	      case 'c':
+		putchar(*ip);
+		break;
+	      case 's':
+		prints((char*)*ip);
+		break;
+	      case 'd':
+		printd(*ip);
+		break;
+	      case 'x': printx(*ip);
+		break;
+	      case 'u': printu(*ip);
+		break;
+	      case 'o':
+		printo(*ip);
+		break;
+	      default:
+		prints("Invalid format identifier\n");
+		break;
+	      }
+	    ip++;
+	  }
+	else
+	  {
+	    putchar(*fmt);
+	    if (*fmt == '\n')
+	       putchar('\r');
+	  }
 	fmt++;
-	switch(*fmt) {
-	case 'c':
-	  putchar(va_arg(vl,int));
-	  break;
-	case 's':
-	  prints(va_arg(vl,char *));
-	  break;
-	case 'u':
-	  printu(va_arg(vl,u32));
-	  break;
-        case 'd':
-	  printd(va_arg(vl,int));
-	  break;
-	case 'o':
-	  printo(va_arg(vl,u32));
-	  break;
-	case 'x':
-	  printx(va_arg(vl,u32));
-	  break;
-	}
       }
-      else
-	putchar(*fmt);
-      fmt++;
-    }
-    va_end(vl);
-}
-
+}  
+  
 //Ngoc's work: my function to print a string
 int prints(char *s)
 {
